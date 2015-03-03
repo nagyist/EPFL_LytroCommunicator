@@ -1,0 +1,10 @@
+{
+	"devices" : {
+		"sensor" : {
+			"sensorSerial" : "0x908E2100EED9FD8D"
+		}
+	},
+	"camera" : {
+		"serialNumber" : "A102381403"
+	}
+}

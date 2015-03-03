@@ -1,0 +1,282 @@
+{
+    "debug": {
+        "sensorConfig.uwExtClk": 6144,
+        "sensorConfig.uwVTotal": 6862,
+        "sensorConfig.uwHTotal": 6995,
+        "sensorConfig.uwVISActive": 6,
+        "sensorConfig.uwHISActive": 6,
+        "sensorConfig.uwScanMode": 0,
+        "sensorConfig.uwFrameSkew": 0,
+        "sensorConfig.uwCyclicScanStartX": 0,
+        "sensorConfig.uwCyclicScanStartY": 0,
+        "sensorConfig.uwCyclicScanStartColor": 0,
+        "sensorConfig.uwCyclicScanColors": 0,
+        "sensorConfig.uwHShift": 0,
+        "sensorConfig.uwFrameStartX": 4,
+        "sensorConfig.uwFrameStartY": 4,
+        "sensorConfig.uwFrameWidth": 3280,
+        "sensorConfig.uwFrameHeight": 3280,
+        "sensorConfig.uwDataMode": 1,
+        "sensorConfig.uwVerticalDecimation": 1,
+        "sensorConfig.uwHorizontalDecimation": 1,
+        "sensorConfig.uwFisrtExposure": 64,
+        "sensorConfig.uwFisrtGain": 64,
+        "sensorConfig.uwTGBurstLine": 100,
+        "sensorConfig.uwFieldsNum": 1,
+        "sensorConfig.uwAptinaVtPixClkDiv": 4,
+        "sensorConfig.uwAptinaVtSysClkDiv": 1,
+        "sensorConfig.uwAptinaPrePllClkDiv": 4,
+        "sensorConfig.uwAptinaPllMultiplier": 128,
+        "sensorConfig.uwAptinaOpPixClkDiv": 8,
+        "sensorConfig.uwAptinaOpSysClkDiv": 1,
+        "sensorConfig.uwAptinaXAddrStart": 692,
+        "sensorConfig.uwAptinaXAddrEnd": 3979,
+        "sensorConfig.uwAptinaYAddrStart": 32,
+        "sensorConfig.uwAptinaYAddrEnd": 3319,
+        "sensorConfig.uwXOddIncrement": 1,
+        "sensorConfig.uwYOddIncrement": 1,
+        "sensorConfig.uwXYBinEnable": 0,
+        "sensorConfig.uwXBinEnable": 0,
+        "sensorConfig.uwAptinaScale_m": 16,
+        "sensorConfig.uwAptinaXOutputSize": 3288,
+        "sensorConfig.uwAptinaYOutputSize": 3288,
+        "sensorConfig.uwAptinaLineLengthPck": 6995,
+        "sensorConfig.uwAptinaFrameLengthLines": 3431,
+        "sensorConfig.uwAptinaCoarseIntegrationTime": 3431,
+        "sensorConfig.uwAptinaFineCorrection": 318,
+        "sensorConfig.uwAptinaFineIntegrationTime": 1360,
+        "sensorConfig.uwAptinaClkPixel": 81,
+        "batteryVoltage": 3.6897449493408203125,
+        "batteryPercentage": 43.01445770263671875,
+        "exposureSeconds": [
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0,
+            4.0
+        ],
+        "internalRTCValid": true,
+        "lambdaFocusOffsetLiveview": 0.0,
+        "lambdaFocusOffsetCapture": 0.0,
+        "focusPosOffsetLiveview": 0,
+        "focusPosOffsetCapture": 0
+    },
+    "master": {
+        "picture": {
+            "frameArray": [
+                {
+                    "frame": {
+                        "metadata": {
+                            "type": "lightField",
+                            "image": {
+                                "width": 3280,
+                                "height": 3280,
+                                "orientation": 1,
+                                "representation": "rawPacked",
+                                "rawDetails": {
+                                    "pixelFormat": {
+                                        "rightShift": 0,
+                                        "black": {
+                                            "r": 168,
+                                            "gr": 168,
+                                            "gb": 168,
+                                            "b": 168
+                                        },
+                                        "white": {
+                                            "r": 4095,
+                                            "gr": 4095,
+                                            "gb": 4095,
+                                            "b": 4095
+                                        }
+                                    },
+                                    "pixelPacking": {
+                                        "endianness": "big",
+                                        "bitsPerPixel": 12
+                                    },
+                                    "mosaic": {
+                                        "tile": "r,gr:gb,b",
+                                        "upperLeftPixel": "b"
+                                    }
+                                },
+                                "color": {
+                                    "ccmRgbToSrgbArray": [
+                                        3.11158275604248046875,
+                                        -1.93939292430877685546875,
+                                        -0.1721898615360260009765625,
+                                        -0.3629055917263031005859375,
+                                        1.6408803462982177734375,
+                                        -0.2779748141765594482421875,
+                                        0.078967012465000152587890625,
+                                        -1.15580427646636962890625,
+                                        2.0768373012542724609375
+                                    ],
+                                    "gamma": 0.416660010814666748046875,
+                                    "applied": {},
+                                    "whiteBalanceGain": {
+                                        "r": 1.1484375,
+                                        "gr": 1.0,
+                                        "gb": 1.0,
+                                        "b": 1.1484375
+                                    }
+                                },
+                                "modulationExposureBias": 0.0,
+                                "limitExposureBias": -7.9657840728759765625
+                            },
+                            "devices": {
+                                "clock": {
+                                    "zuluTime": "2014-05-14T15:32:40.000Z"
+                                },
+                                "sensor": {
+                                    "bitsPerPixel": 12,
+                                    "mosaic": {
+                                        "tile": "r,gr:gb,b",
+                                        "upperLeftPixel": "b"
+                                    },
+                                    "iso": 160,
+                                    "analogGain": {
+                                        "r": 4.375,
+                                        "gr": 3.1875,
+                                        "gb": 3.1875,
+                                        "b": 3.6875
+                                    },
+                                    "pixelPitch": 0.000001399999976158141876680929
+                                },
+                                "lens": {
+                                    "infinityLambda": 27.276519775390625,
+                                    "focalLength": 0.006440000057220458984375,
+                                    "zoomStep": 982,
+                                    "focusStep": 663,
+                                    "fNumber": 1.90999996662139892578125,
+                                    "temperature": 33.239166259765625,
+                                    "temperatureAdc": 2656,
+                                    "zoomStepperOffset": 3,
+                                    "focusStepperOffset": 16,
+                                    "exitPupilOffset": {
+                                        "z": 0.173749130249023453487211554602
+                                    }
+                                },
+                                "ndfilter": {
+                                    "exposureBias": 0.0
+                                },
+                                "shutter": {
+                                    "mechanism": "sensorOpenApertureClose",
+                                    "frameExposureDuration": 0.004999999888241291046142578125,
+                                    "pixelExposureDuration": 0.004999999888241291046142578125
+                                },
+                                "soc": {
+                                    "temperature": 45.5733642578125,
+                                    "temperatureAdc": 2698
+                                },
+                                "accelerometer": {
+                                    "sampleArray": [
+                                        {
+                                            "x": 0.01960784383118152618408203125,
+                                            "y": 1.0784313678741455078125,
+                                            "z": 0.011764706112444400787353515625,
+                                            "time": 0.0
+                                        }
+                                    ]
+                                },
+                                "mla": {
+                                    "tiling": "hexUniformRowMajor",
+                                    "lensPitch": 0.00001399999999999999911182158,
+                                    "rotation": -0.006512922234833240509033203125,
+                                    "defectArray": [],
+                                    "config": "com.lytro.mla.11",
+                                    "scaleFactor": {
+                                        "x": 1.0,
+                                        "y": 1.00018787384033203125
+                                    },
+                                    "sensorOffset": {
+                                        "x": 0.0000020193870067596435546875,
+                                        "y": 0.00000254687476158142001025908,
+                                        "z": 0.000025
+                                    }
+                                }
+                            },
+                            "modes": {
+                                "creative": "tap",
+                                "manualControls": true,
+                                "exposureDurationMode": "manual",
+                                "exposureDurationSpec": 0.004999999888241291046142578125,
+                                "isoMode": "manual",
+                                "isoSpec": 3.2000000476837158203125,
+                                "ndFilterMode": "auto",
+                                "exposureLock": false,
+                                "overscan": 1.0526316165924072265625
+                            },
+                            "camera": {
+                                "make": "Lytro, Inc.",
+                                "model": "F01",
+                                "firmware": "v1.0a208, vv1.2.2, Wed Sep  4 14:43:36 PDT 2013, fec5f2a239a2823b391a385b94ec6fc8c56bb5b1, mods=0, ofw=0"
+                            }
+                        },
+                        "privateMetadata": {
+                            "devices": {
+                                "sensor": {
+                                    "sensorSerial": "0x908E2100EED9FD8D"
+                                }
+                            },
+                            "camera": {
+                                "serialNumber": "A102381403"
+                            }
+                        },
+                        "imageRef": "unknown"
+                    },
+                    "parameters": {
+                        "vendorContent": {
+                            "com.lytro.tags": {
+                                "darkFrame": false,
+                                "modulationFrame": false
+                            }
+                        }
+                    }
+                }
+            ],
+            "viewArray": [],
+            "accelerationArray": [],
+            "derivationArray": [
+                "sha1-91affe3639758453779bf4a8ea2d2d320f2714af"
+            ]
+        },
+        "thumbnailArray": [],
+        "version": {
+            "major": 1,
+            "minor": 0,
+            "provisionalDate": "2012-10-23"
+        }
+    },
+    "compressedFrame": {
+        "metadata": {
+            "representation": "jpeg",
+            "ccmRgbToYuvArray": [
+                0.30078125,
+                0.5859375,
+                0.11328125,
+                -0.171875,
+                -0.33203125,
+                0.51171875,
+                0.51171875,
+                -0.4296875,
+                -0.08203125
+            ],
+            "ccmYuvToRgbArray": [
+                1.0,
+                0.0,
+                1.37109375,
+                1.0,
+                -0.33984375,
+                -0.69921875,
+                1.0,
+                1.73046875,
+                0.0
+            ],
+            "demodulated": false
+        }
+    }
+}
